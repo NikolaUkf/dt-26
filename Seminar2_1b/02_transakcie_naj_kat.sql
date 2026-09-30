@@ -4,7 +4,7 @@ WHERE product_category = (
 SELECT product_category
 FROM flourmills_sales
 GROUP BY product_category
-ORDER BY sum(total_amount) desc
+ORDER BY sum(total_amount) DESC
 limit 1 
 )
 
