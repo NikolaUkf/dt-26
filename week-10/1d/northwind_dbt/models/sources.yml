@@ -1,0 +1,14 @@
+version: 1
+
+sources:
+  - name: bronze
+    schema: bronze
+    tables:
+      - name: categories
+      - name: customers
+      - name: employees
+      - name: orderdetails
+      - name: orders
+      - name: products
+      - name: shippers
+      - name: suppliers
